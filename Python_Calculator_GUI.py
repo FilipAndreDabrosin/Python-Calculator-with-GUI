@@ -82,8 +82,6 @@ root.geometry("300x275")
 root.title("Calculator")
 root.configure(bg="#020f12")
 icon = tk.PhotoImage(file="calculator_icon.png")
-root.iconphoto(True, icon)
-root.resizable(width=False, height=False)
 button_pressed = tk.BooleanVar
 entry_var = tk.StringVar()
 entry = tk.Entry(root, textvariable=entry_var, justify='right', font=('Arial', 16), bd=10, bg="#2c2c4c", fg="light blue")
